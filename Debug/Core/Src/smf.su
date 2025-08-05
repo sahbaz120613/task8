@@ -1,0 +1,6 @@
+../Core/Src/smf.c:214:13:smf_clear_internal_state	24	static
+../Core/Src/smf.c:224:6:smf_set_initial	16	static
+../Core/Src/smf.c:270:6:smf_set_state	24	static
+../Core/Src/smf.c:375:6:smf_set_terminate	24	static
+../Core/Src/smf.c:383:6:smf_set_handled	24	static
+../Core/Src/smf.c:390:9:smf_run_state	24	static
