@@ -104,26 +104,4 @@ void TaskFunction2(void *argument) {
 		smf_run_state(&adcCtx);
 	}
 }
-//		switch (adcState) {
-//			case state_waiting:
-////				Vref_cal = *VREFINT_CAL_ADDR;
-////				HAL_ADC_Start_DMA(&hadc1, (uint32_t *)buffer, 2);
-////				ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
-////				adc_Vref= buffer[0];
-////				raw= buffer[1];
-////				adcState= state_calculating;
-//				break;
-//			case state_calculating:
-////				Vref = 3.3f *((float)Vref_cal / (float)adc_Vref);
-////				voltaj= ((float)raw* Vref)/4096.0f;
-////				temp = ((1.43f - voltaj)  /0.0043f) + 25.0f;
-////				HAL_ADC_Stop_DMA(&hadc1);
-//				adcState=state_uart;
-//				break;
-//			case state_uart:
-////				snprintf(text, sizeof(text), "temp: %.2f\n", temp);
-////				HAL_UART_Transmit_DMA(&huart2,  (uint8_t*)text, strlen(text));
-//				adcState= state_waiting;
-//				break;
-//		}
 	// TOOD: Task Func2 here
